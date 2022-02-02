@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  font-family: Arial, Tahoma, Serif;
+}
+nav {
+  display: flex; /* 1 */
+  padding: 1rem 2rem; /* 3 */
+  background: linear-gradient(to left, #3f5efb, #fc466b); /* 4 */
+  justify-content: center;
+}
+
+nav ul {
+  float: right;
+  display: flex; /* 5 */
+  list-style: none; /* 6 */
+}
+
+nav li {
+  padding-left: 1rem; /* 7! */
+}
+nav a {
+  font-family: 'Fredoka One', cursive;
+  text-decoration: none;
+  color: white
+}
+
+.fa-github {
+  font-size: 22px;
+}
+
+/*@media only screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    flex-direction: column;
+    padding-top: 0.5rem;
+  }
+  nav li {
+    padding: 0.5rem 0;
+  }
+}*/
