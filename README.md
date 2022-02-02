@@ -5,7 +5,7 @@ Click on the image or button to get a new meme!
 
 ## Preview:
 
-![preview](https://github.com/JannesT3011/ClickMemes/blob/main/previewImg)
+![preview](https://github.com/JannesT3011/ClickMemes/blob/main/previewImg/start.png)
 
 ## Run by yourself:
 
